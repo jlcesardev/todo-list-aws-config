@@ -1,9 +1,10 @@
 version = 0.1
 
-[staging.deploy.parameters]
-stack_name = "staging-todo-list-aws"
-s3_bucket = "staging-todo-list-artifacts-622005079080"
+[prod.deploy.parameters]
+stack_name = "production-todo-list-aws"
+s3_bucket = "production-todo-list-artifacts-622005079080"
 region = "us-east-1"
 capabilities = "CAPABILITY_IAM"
 confirm_changeset = true
+
 
